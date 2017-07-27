@@ -1,0 +1,37 @@
+
+body {
+background:#cccccc;
+font-family: "Time New Roman",verdana,arial;
+}
+a:link, a:visited{
+	color:#FF0000;
+	text-decoration: none;
+	font-weight:bold;
+	width: 100px;
+	margin-left: -1px;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+}
+a:hover{
+	background-color: green;
+	color:#FF0000;
+}
+a:active{
+	background-color:black;
+	color:white;
+}
+.menu li:active{
+	background: rgb(0,0,0,.3);
+	box-shadow:inset 0px 3px 20px rgba(0,0,0,1);
+
+}
+
+#footer{
+	margin:0 auto;
+	background-color: #cccccc;
+	text-align: center;
+	width: 1400px;
+	height: 100px;
+	border:solid;
+}
